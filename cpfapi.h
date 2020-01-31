@@ -10,4 +10,9 @@ int Command_Interpreter(char *);
 char* getDecStr(char*,int,int);
 int uid_retrive();
 void id_validation(char* );
-
+int count1 = 0;
+struct Uim{
+	int iUid;
+	char cName[12];
+	char cMailid[16];
+}uim[150]; 
